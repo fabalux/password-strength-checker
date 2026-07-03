@@ -1,8 +1,6 @@
 # Password Strength Checker
 
-A simple Python command-line tool that evaluates password strength based on 
-length, character variety (uppercase, lowercase, digits, special characters), 
-and provides actionable suggestions for improvement.
+A simple Python command-line tool that evaluates password strength based on length, character variety (uppercase, lowercase, digits, special characters), and provides actionable suggestions for improvement.
 
 ## Features
 - Scores passwords on a 0-6 scale
@@ -10,19 +8,20 @@ and provides actionable suggestions for improvement.
 - Gives specific feedback on what to improve
 
 ## How to Run
-```bash
-python main.py
-` ` ` Example:
-=== Password Strength Checker ===
-Enter a password to check: hello123
+Run the script using:
 
-Strength: Weak (2/6)
+    python main.py
 
-Suggestions to improve:
-- Add at least one uppercase letter.
-- Add at least one special character (!@#$%^&* etc).
+## Example
+
+
+
+![Terminal output](password_strength_checker_terminal.png)
+
+
+
 ## Why I Built This
-This is part of my ongoing learning journey in cybersecurity,
-focused on understanding practical password security concepts
+This is part of my ongoing learning journey in cybersecurity, focused on understanding practical password security concepts.
+
 ## License
 MIT
